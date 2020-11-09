@@ -1,6 +1,6 @@
-FROM golang:1.11.2-alpine
+FROM golang:1.15-buster
 WORKDIR /go-test
 ADD . /go-test
-RUN cd /go-test && go build
+RUN cd /go-test && go get github.com/nfnt/resize && go build
 EXPOSE 3333
-ENTRYPOINT ./go-test
+CMD ["./go-test"]

@@ -60,8 +60,8 @@ func uploadHandle (w http.ResponseWriter, req *http.Request) {
         
         // 檢查圖片副檔名
         ext := strings.ToLower(path.Ext(handle.Filename))
-        if ext != ".jpg" && ext != ".png" {
-            errorHandle(errors.New("只支援jpg/png檔案格式"), w);
+        if ext != ".jpg" && ext != ".jpeg" && ext != ".png" {
+            errorHandle(errors.New("只支援jpg/jpeg/png檔案格式"), w);
             return
         }
         
