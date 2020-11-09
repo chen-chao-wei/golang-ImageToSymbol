@@ -2,9 +2,14 @@
 
 ## 顯示單/雙線程函式執行時間
 
-首頁
+### 首頁
+
 ![image](gitImage/index.png)
-效果 1 終端機圖示
+
+### 效果 1 終端機圖示
+
 ![image](gitImage/cmd.png)
-效果 2 貓 （textarea 可滾動，查看全圖）
+
+### 效果 2 貓 （textarea 可滾動，查看全圖）
+
 ![image](gitImage/cat.png)
