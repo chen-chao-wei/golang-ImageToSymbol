@@ -6,19 +6,20 @@
     <title>{{.Title}}</title>
   </head>
   <body>
-    <h1>{{.Title}}</h1>
-    <p>{{.Content}}</p>
-    <h1 style="color: red">{{.Error}}</h1>
-    <form method="post" enctype="multipart/form-data">
-      <input type="file" name="image" />
-      <input type="submit" />
-    </form>
-    <button id="upBtn">上傳圖片</button>
+    <div style="border-style: dotted">
+      <h1>{{.Title}}</h1>
+      <p>{{.Content}}</p>
+      <h1 style="color: red">{{.Error}}</h1>
+      <form method="post" enctype="multipart/form-data">
+        <input type="file" name="image" />
+        <input type="submit" />
+      </form>
+    </div>
   </body>
   <script
     src="https://code.jquery.com/jquery-3.5.1.js"
     integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
     crossorigin="anonymous"
   ></script>
-  <script src="/front.js"></script>
+  <!-- <script src="/front.js"></script> -->
 </html>
