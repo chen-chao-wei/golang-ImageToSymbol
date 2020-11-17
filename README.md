@@ -2,8 +2,13 @@
 
 ### 使用 docker 建置專案
 
+#### 專案內輸入以下指令
+
+```
 docker build -t gdp . <br>
 sudo docker run -d -p 3333:3333 gdp <br>
+```
+
 執行網址 http://localhost:3333/upload/ 即可看到畫面 <br>
 
 ## 顯示單/雙線程函式執行時間
